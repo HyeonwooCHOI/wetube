@@ -33,3 +33,8 @@ Form에 의해 정보가 받아질 경우 request Object 안에 가지고 있게
 
 #cookie-parser
 cookie에 유저 정보를 저장 => session을 다루기 위해
+
+#MVC
+Model: data ===> database
+View: how does the data look
+Controller: function that looks for the data
