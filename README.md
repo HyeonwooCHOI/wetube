@@ -38,3 +38,10 @@ cookie에 유저 정보를 저장 => session을 다루기 위해
 Model: data ===> database
 View: how does the data look
 Controller: function that looks for the data
+
+#pug
+
+- express의 view engine 설정
+- views 폴더에서 자동으로 가져옴 => view폴더 생성
+- render로 가져오기 => rendr([pug파일명], {보낼데이터})
+- #{} 안에다 자바스크립 작업 가능
