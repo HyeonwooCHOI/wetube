@@ -63,3 +63,10 @@ Controller: function that looks for the data
 - dotenv.config() 함수를 실행시켜 process.env.변수이름
 - 으로 사용하기
 - .env 파일을 꼭! .gitignore에 저장
+
+#multer
+
+- middleware 이다
+- file의 URL을 반환
+- 여기서는 post로 routes.upload를 접근하면
+  multer를 한번거치고(uploadVideo) postUpload실행
