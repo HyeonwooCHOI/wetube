@@ -49,6 +49,10 @@ Controller: function that looks for the data
 #mongoos
 
 - mongoDB와 JS의 NodeJs를 연결하기 위한 어댑터
+- mongoose.connect로 mongoDB 서버 연결
+- mongoose.connection으로 DB 연결
+- mongoose.Schema로 스키말 생성
+- mongoose.model("테이블명", "스키마") 로 생성
 
 #dotenv
 
