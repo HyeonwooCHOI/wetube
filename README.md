@@ -45,3 +45,17 @@ Controller: function that looks for the data
 - views 폴더에서 자동으로 가져옴 => view폴더 생성
 - render로 가져오기 => rendr([pug파일명], {보낼데이터})
 - #{} 안에다 자바스크립 작업 가능
+
+#mongoos
+
+- mongoDB와 JS의 NodeJs를 연결하기 위한 어댑터
+
+#dotenv
+
+- 호스팅 할 때 ex)몽공DB 주소를 가려줌
+- 무언가를 숨기고 싶을 때 사용
+- .env 파일에 숨기고 싶은 정보를 저장 후
+- dotenv를 import 하고
+- dotenv.config() 함수를 실행시켜 process.env.변수이름
+- 으로 사용하기
+- .env 파일을 꼭! .gitignore에 저장
