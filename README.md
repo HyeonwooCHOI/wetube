@@ -82,3 +82,11 @@ Controller: function that looks for the data
 #ESLint
 
 - 코드 스타일을 자동으로 정렬
+
+#webpack
+
+- npm install webpack => webpack을 사용하기 위한
+- npm install webpack-cli => 터미널에서 webpack을 사용하기 위한
+- webpack.config.js 파일 생성(server code와 연관X / 100% client code / old js 사용)
+- srcipts 부분 변경 => dev:server 와 dev:assets(webpack을 불러옴 자동으로 webpack.config.js 파일 불러옴)
+-
