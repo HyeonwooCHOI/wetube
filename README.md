@@ -89,4 +89,27 @@ Controller: function that looks for the data
 - npm install webpack-cli => 터미널에서 webpack을 사용하기 위한
 - webpack.config.js 파일 생성(server code와 연관X / 100% client code / old js 사용)
 - srcipts 부분 변경 => dev:server 와 dev:assets(webpack을 불러옴 자동으로 webpack.config.js 파일 불러옴)
--
+
+#Passport
+
+- 인증 미들웨어
+- 쿠키를 생성하고 브라우저에 저장 한 후 유저에게 해당 쿠키를 줄 것임
+  #Cookie
+- 우리가 브라우저에 저장 할 수 있는 것
+- req가 일어나면 브라우저가 자동으로 쿠키들을 서버로 전송
+
+#Passport-LocalMongoose
+
+- 패스워드 설정, 확인 등을 자동적으로 해줌
+
+#passport passport-local
+
+- 설치
+
+#serializeUser
+
+- 어떤 field가 쿠키에 포함될 것인지 알려주는 역할
+
+#deserializeUser
+
+- 어느 사용자인지 어떻게 찾는가
