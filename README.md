@@ -70,3 +70,11 @@ Controller: function that looks for the data
 - file의 URL을 반환
 - 여기서는 post로 routes.upload를 접근하면
   multer를 한번거치고(uploadVideo) postUpload실행
+
+#express.static("폴더명")
+
+- multer({ dest: "uploads/videos/" }); 이러면
+  url이 /uploads/videos로 될껀데
+  router에는 이러한 url이 없어서 에러가 발생하므로
+  app.use("/uploads", express.static("uploads"));
+  static file을 사용하여 폴더명으로 인식하게 한다.
