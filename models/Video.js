@@ -7,7 +7,7 @@ const VideoSchema = new mongoose.Schema({
   },
   title: {
     type: String,
-    required: "Title is requried"
+    required: "Tilte is required"
   },
   description: String,
   views: {
@@ -21,11 +21,10 @@ const VideoSchema = new mongoose.Schema({
   comments: [
     {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "Commenet"
+      ref: "Comment"
     }
   ]
 });
 
 const model = mongoose.model("Video", VideoSchema);
-
 export default model;
