@@ -113,3 +113,7 @@ Controller: function that looks for the data
 #deserializeUser
 
 - 어느 사용자인지 어떻게 찾는가
+
+#express-session
+
+- secret 값은 쿠키에 저장되는 sessionID를 암호화 시킴
