@@ -78,3 +78,7 @@ Controller: function that looks for the data
   router에는 이러한 url이 없어서 에러가 발생하므로
   app.use("/uploads", express.static("uploads"));
   static file을 사용하여 폴더명으로 인식하게 한다.
+
+#ESLint
+
+- 코드 스타일을 자동으로 정렬
